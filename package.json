@@ -1,0 +1,39 @@
+{
+  "name": "containers-2-map",
+  "version": "1.0.0",
+  "description": "\"containers\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "jest --coverage",
+    "lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Maks-podr33/containers-2-map.git"
+  },
+  "keywords": [
+    "containers"
+  ],
+  "author": "Maks-podr33",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maks-podr33/containers-2-map/issues"
+  },
+  "homepage": "https://github.com/Maks-podr33/containers-2-map#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@eslint/js": "^9.26.0",
+    "@stylistic/eslint-plugin-js": "^4.2.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^9.26.0",
+    "eslint-plugin-jest": "^28.11.0",
+    "globals": "^16.1.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.42.0"
+  }
+}
